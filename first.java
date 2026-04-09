@@ -14,6 +14,7 @@ public class first {
         double a = sc.nextDouble();
         double b = sc.nextDouble();
         System.out.println("Sum : " + (a + b));
+        System.out.println("Multiply :  "  + (a * b ));
 
         sc.close();
     }
