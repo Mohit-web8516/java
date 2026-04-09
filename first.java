@@ -1,5 +1,21 @@
+// public class first {
+//     public static void main(String[] args) {
+//         System.out.println("hello! world");
+//     }
+// }
+
+import java.util.*;
+import java.util.Scanner;
+
 public class first {
     public static void main(String[] args) {
-        System.out.println("hello! world");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter two numbers : ");
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        System.out.println("Sum : " + (a + b));
+
+        sc.close();
     }
+
 }
