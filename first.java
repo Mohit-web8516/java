@@ -4,11 +4,12 @@
 //     }
 // }
 
-import java.util.*;
+
+//Simple Calculator
 import java.util.Scanner;
 
-public class first {
-    public static void main(String[] args) {
+ public class first {
+     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter two numbers : ");
         double a = sc.nextDouble();
@@ -20,3 +21,5 @@ public class first {
     }
 
 }
+
+
