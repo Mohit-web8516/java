@@ -1,5 +1,7 @@
-public class Employee {
 
+
+public class Employee {
+//
     int empId ;
     String empName;
     double salary ;
@@ -10,6 +12,7 @@ public class Employee {
         salary = sal;
 
     }
+    //method to display employee details
     void displayEmployee(){
         
         System.out.println("Employee Details are : ");
@@ -18,8 +21,9 @@ public class Employee {
         System.out.println("salary  is : " +salary );
     }
     public static void  main (String[] args){
-        Employee e1 = new Employee(201, "ROHIT", 45000);
 
+        Employee e1 = new Employee(201, "ROHIT", 45000);
+//create object and pass values directly
         e1.displayEmployee();
     }
    
