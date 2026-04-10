@@ -1,0 +1,1 @@
+e + ", length of name : " + name.length() + ", uppercase : " + name.toUpperCase() + ", lower
