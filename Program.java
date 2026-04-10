@@ -68,23 +68,54 @@
 
 ///////////////////////////////////////////////////////////////
 /// fibonacci series
- import java.util.Scanner;
+//  import java.util.Scanner;
+
+// public class Program {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your terms: ");
+//         int n = sc.nextInt();
+
+//         int a = 0, b = 1;
+//         System.out.print("Fibonacci Series:");
+
+//         for (int i = 1; i <= n; i++) {
+//             System.out.print( a +  " "  + "\n");
+//             int sumOfPrevTwo = a + b;
+//             a = b;
+//             b = sumOfPrevTwo;
+//         }
+//         sc.close();
+//     }
+// }
+/////////////////////////////////////////////
+/// PRIME NUMBER
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter how many terms: ");
-        int n = sc.nextInt();
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        boolean isPrime = true;
 
-        int a = 0, b = 1;
-        System.out.print("Fibonacci Series: ");
+        if (num <= 1) {
+            isPrime = false; // 0 and 1 are not prime
+        } else {
+            for (int i = 2; i <= num / 2; i++) {
+                if (num % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+        }
 
-        for (int i = 1; i <= n; i++) {
-            System.out.print(a + " ");
-            int next = a + b;
-            a = b;
-            b = next;
+        if (isPrime) {
+            System.out.println(num + " is a Prime number");
+        } else {
+            System.out.println(num + " is NOT a Prime number");
         }
 
         sc.close();
