@@ -28,7 +28,7 @@ public class Inheritance {
         // Create child object
         Student s1 = new Student();
 
-        // Assign values (inherited + own)
+        // Assign values 
         s1.name = "Yash";
         s1.age = 20;
         s1.rollNo = 101;
