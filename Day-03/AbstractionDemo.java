@@ -102,3 +102,42 @@ Then, we can create specific classes like "Lion", "Elephant", and "Monkey"
 that extend the Animal class and provide their own implementations of the makeSound() method. 
 This way, we can manage different types of animals in the zoo while keeping the common functionalities abstracted in the Animal class.
 */
+
+
+
+////////////////////////////////////////////////////////////////////
+/// 
+class Car {
+    public void start() {
+        System.out.println("Car is starting...");
+    }
+    public void stop() {
+        System.out.println("Car is stopping...");
+    }
+}
+
+// Interface for electric vehicles
+interface ElectricVehicle {
+    void charge();
+    void displayBatteryLevel();
+
+}
+
+class ElectricCar implements ElectricVehicle {
+    public void charge() {
+        System.out.println("Electric car is charging...");
+    }
+    public void displayBatteryLevel() {
+        System.out.println("Battery level: 80%");
+    }
+}
+
+/*
+Developer use case based on abstraction using interfaces (can do relationship) :
+scenario 2: We are developing a software for a transportation system. 
+We can create an interface called "Vehicle" that defines common behaviors of all vehicles, 
+such as start(), stop(), and accelerate(). 
+Then, we can create specific classes like "Car", "Bike", and "Bus" that implement the 
+Vehicle interface and provide their own implementations of the methods.
+
+*/
