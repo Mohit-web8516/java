@@ -1,8 +1,14 @@
+
+/*
+As an admin, I want to initialize employee/trainer details directly so that I can avoid assigning values manually.
+*/
+
+//creating class 
 class Employee {
     int empId;
     String empName;
     double salary;
-
+//passing parameters
     Employee(int id, String name, double sal) {
         empId = id;
         empName = name;
