@@ -1,4 +1,5 @@
-// Step 1: Define the Student class
+/* As an admin, I want to create a Student object so that I can store and display student information.*/
+
 class Student {
     // attributes
     int rollNo;
