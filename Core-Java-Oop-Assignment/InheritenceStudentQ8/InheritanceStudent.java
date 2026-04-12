@@ -1,3 +1,5 @@
+/*As an admin, I want to distinguish between general students and college students so that I can reuse common student details. */
+
 
    // Parent class
 class Student {
@@ -8,7 +10,7 @@ class Student {
         rollNo = r;
         name = n;
     }
-
+    //Display Method
     void display() {
         System.out.println("Roll No: " + rollNo);
         System.out.println("Name: " + name);
