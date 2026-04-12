@@ -1,3 +1,4 @@
+/*As an admin, I want to protect product price details so that users cannot directly modify sensitive values. */
 
     class Product {
     // Private variable (cannot be accessed directly)
