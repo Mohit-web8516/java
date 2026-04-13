@@ -35,7 +35,7 @@ class CollegeStudent extends Student {
 // Main class
 public class InheritanceStudent {
     public static void main(String[] args) {
-        CollegeStudent cs = new CollegeStudent(101, "Mohit", "ABC College");
+        CollegeStudent cs = new CollegeStudent(101, "Mohit", "GN College");
         cs.displayCollegeStudent();
     }
 }
