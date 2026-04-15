@@ -7,9 +7,9 @@ public class DBConnectionDemo {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // load driver
 
-            String url = "jdbc:mysql://localhost:3306/mydb?useSSL=false&serverTimezone=UTC";
+            String url = "jdbc:mysql://localhost:3306/WORLD";
             String user = "root"; // your MySQL username
-            String password = "your_password"; // your MySQL password
+            String password = "root12"; // your MySQL password
 
             Connection con = DriverManager.getConnection(url, user, password);
             System.out.println("Connection established successfully!");
