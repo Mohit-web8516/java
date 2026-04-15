@@ -81,3 +81,15 @@ using objectOutputStream to  save  the  object to a file...
 
 # #############################
 # how to insert data into db
+
+
+# SQL CONNECTION STEP
+
+
+# STEP 1:SETTING FOR CONNECTION WITH MYSQL
+# STEP 2: 
+
+
+
+## ####################################
+
