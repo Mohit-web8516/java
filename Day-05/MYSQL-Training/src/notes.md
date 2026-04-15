@@ -1,1 +1,3 @@
-# write a program whioch can perform all CRUD operations on a database where CRUD  means (Create,Read,Update,Delete)
+# write a program whioch can perform all CRUD operations on a database where CRUD  means (Create,Read,Update,Delete).command thats used in database to check the existencew or connection of the data is : 'SELECT * FROM TABLE_NAME;'
+
+# WRITE A PROGRAM TO DISPLAY THE DATA PRESENT IN THE SQL........
