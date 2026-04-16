@@ -41,7 +41,36 @@
 
 ////////////////////////////////////////////////////////
 //single inheritance in java
-class Parent {
+// class Parent {
+//     void parentMethod() {
+//         System.out.println("This is the parent method.");
+//     }
+// }
+
+// class Child extends Parent {
+//     void childMethod() {
+//         System.out.println("This is the child method.");
+//     }
+// }
+
+// public class Inheritance {
+//     public static void main(String[] args) {
+//         Child c1 = new Child();
+//         c1.parentMethod(); // Inherited from Parent
+//         c1.childMethod();  // Defined in Child
+//     }
+// }
+
+
+//////////////////////////////////////////////////
+/// multilevel inheritance in java
+class GrandParent {
+    void grandParentMethod() {
+        System.out.println("This is the grandparent method.");
+    }
+}
+
+class Parent extends GrandParent {
     void parentMethod() {
         System.out.println("This is the parent method.");
     }
@@ -53,10 +82,9 @@ class Child extends Parent {
     }
 }
 
-public class Inheritance {
-    public static void main(String[] args) {
-        Child c1 = new Child();
-        c1.parentMethod(); // Inherited from Parent
-        c1.childMethod();  // Defined in Child
+class GrandChild extends Child {
+    void grandChildMethod() {
+        System.out.println("This is the grandchild method.");
     }
 }
+
