@@ -51,3 +51,47 @@
 //         scanner.close();
 //     }
 // }
+
+/////////////////////////////////////////////////
+/// if-else statement, for loop, while loop, do-while loop in java
+import java.util.Scanner;
+public class cond {     
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // If-Else Statement
+         if (number > 0) {
+             System.out.println("The number is positive.");
+         } else if (number < 0) {
+             System.out.println("The number is negative.");
+         } else {
+             System.out.println("The number is zero.");
+         }
+
+        // For Loop
+        System.out.println("For Loop:");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Iteration: " + i);
+        }
+
+        // While Loop
+        System.out.println("While Loop:");
+        int count = 0;
+        while (count < 5) {
+            System.out.println("Count: " + count);
+            count++;
+        }
+
+        // Do-While Loop
+        System.out.println("Do-While Loop:");
+        int doCount = 0;
+        do {
+            System.out.println("Do Count: " + doCount);
+            doCount++;
+        } while (doCount < 5);
+
+        scanner.close();
+    }
+}
