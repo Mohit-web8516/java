@@ -113,3 +113,5 @@ public class MyObjectEqualsClass {
         System.out.println(name); // prints "JOHN"
     }
 }
+///////////////////////////////////////////////////
+/// 
