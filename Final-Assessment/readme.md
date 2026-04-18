@@ -1,4 +1,4 @@
-#SmartCampus System
+# SmartCampus System
 📖 Overview
 The SmartCampus System is a simple Java console application designed to manage students, courses, and enrollments in a campus environment. It demonstrates key Java concepts such as Object-Oriented Programming (OOP), Collections, Exception Handling, and Multithreading in a menu-driven program.
 
