@@ -95,23 +95,44 @@
 //     }
 // }
 
-class ThrowDemo {
-    void method1() {
-        method2();
-        System.out.println("Method 1 ends");
-    }
+// class ThrowDemo {
+//     void method1() {
+//         method2();
+//         System.out.println("Method 1 ends");
+//     }
 
-    void method2() {
-        method3();
-        System.out.println("Method 2 ends");
-    }
+//     void method2() {
+//         method3();
+//         System.out.println("Method 2 ends");
+//     }
 
-    void method3() {
-        System.out.println("Method 3 executing");
-    }
+//     void method3() {
+//         System.out.println("Method 3 executing");
+//     }
 
-    public static void main(String[] args) {
-        Demo obj = new Demo();
-        obj.method1();
-    }
-}
+//     public static void main(String[] args) {
+//         Demo obj = new Demo();
+//         obj.method1();
+//     }
+// }
+
+
+//////////////////////////////
+// public class ThrowDemo{
+//     public static void main (String[] args){
+//        int  a[] = {2,4,5,6,8,9};
+//         int result = 0;
+//         try{
+//             result = a[3] / a[8];
+//             System.out.println("Result: " + result);
+//         } catch (ArithmeticException e) {
+//             System.out.println("Error: Division by zero");
+//         }catch(ArrayIndexOutOfBoundsException e){
+//              System.out.println("ghghg");
+
+//         }
+//         finally{
+//             System.err.println("Chalo Ab Execute hi ho jaata hun!!");
+//         }
+//     }
+// }
