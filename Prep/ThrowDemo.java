@@ -136,3 +136,18 @@
 //         }
 //     }
 // }
+
+///////////////////////////////////////////////
+
+import java.util.Scanner;
+
+class ThrowDemo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number: ");
+        Double name = sc.nextDouble();
+
+        System.out.println("You entered: " + name);
+    }
+}
