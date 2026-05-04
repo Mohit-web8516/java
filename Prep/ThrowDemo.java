@@ -83,14 +83,35 @@
 //         }
 //     }}
 /*---------------------------------------------- */
-public class ThrowDemo {
+// public class ThrowDemo {
+//     public static void main(String[] args) {
+//         int age = 15;
+
+//         if (age < 18) {
+//             throw new ArithmeticException("Not eligible to vote");
+//         }
+
+//         // System.out.println("Eligible");
+//     }
+// }
+
+class ThrowDemo {
+    void method1() {
+        method2();
+        System.out.println("Method 1 ends");
+    }
+
+    void method2() {
+        method3();
+        System.out.println("Method 2 ends");
+    }
+
+    void method3() {
+        System.out.println("Method 3 executing");
+    }
+
     public static void main(String[] args) {
-        int age = 15;
-
-        if (age < 18) {
-            throw new ArithmeticException("Not eligible to vote");
-        }
-
-        // System.out.println("Eligible");
+        Demo obj = new Demo();
+        obj.method1();
     }
 }
