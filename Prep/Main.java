@@ -92,36 +92,36 @@
 
 
 
-class vehicle{
-    int model;
-    String name;
-    int buying_year;
-    String greet;
-    void display() {
-        System.out.println("Model: " + model);
-        System.out.println("Name: " + name);
-        System.out.println("Buying Year: " + buying_year);
-        System.out.println("Greet: " + greet);
-        System.out.println();
-    }
-}
-public class Main{
-    public static void main(String[] args) {
-        vehicle  a = new vehicle();
-        vehicle a1 = new vehicle();
+// class vehicle{
+//     int model;
+//     String name;
+//     int buying_year;
+//     String greet;
+//     void display() {
+//         System.out.println("Model: " + model);
+//         System.out.println("Name: " + name);
+//         System.out.println("Buying Year: " + buying_year);
+//         System.out.println("Greet: " + greet);
+//         System.out.println();
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args) {
+//         vehicle  a = new vehicle();
+//         vehicle a1 = new vehicle();
 
 
-        a.model = 2023;
-        a.name = "jaguar";
-        a.buying_year = 3434;
-        a.greet = "Badhayhn";
+//         a.model = 2023;
+//         a.name = "jaguar";
+//         a.buying_year = 3434;
+//         a.greet = "Badhayhn";
 
-        a1.model = 2023;
-        a1.name = "jaguar";
-        a1.buying_year = 3434;
-        a1.greet = "Badhayhn";
+//         a1.model = 2023;
+//         a1.name = "jaguar";
+//         a1.buying_year = 3434;
+//         a1.greet = "Badhayhn";
 
-        a.display();
-        a1.display();
-    }
-}
+//         a.display();
+//         a1.display();
+//     }
+// }
