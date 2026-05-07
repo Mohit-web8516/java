@@ -121,28 +121,28 @@
 //     }
 // }
 ////////////////////////////////////
-class liberay {
-    String name;
-    String author;
-    int price;
+// class liberay {
+//     String name;
+//     String author;
+//     int price;
 
-    void display() {
-        System.out.println("Name : " + name);
-        System.out.println("Author : " + author);
-        System.out.println("Price : " + price);
-    }
-}
+//     void display() {
+//         System.out.println("Name : " + name);
+//         System.out.println("Author : " + author);
+//         System.out.println("Price : " + price);
+//     }
+// }
 
-public class book {
-    public static void main(String[] args) {
+// public class book {
+//     public static void main(String[] args) {
 
-        liberay s1 = new liberay();
+//         liberay s1 = new liberay();
 
-        s1.name = "Kalidas";
-        s1.author = "Ramchand";
-        s1.price = 230;
+//         s1.name = "Kalidas";
+//         s1.author = "Ramchand";
+//         s1.price = 230;
 
-        s1.display();
-    }
-}
+//         s1.display();
+//     }
+// }
         
