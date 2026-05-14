@@ -222,3 +222,19 @@
 //         }
 //     }
 // }
+//////////////////////////////////
+public class book {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 343;
+        {
+            System.out.println(a +b);
+            System.out.println(a -b);
+            System.out.println(a *b);
+            System.out.println(a /b);
+            System.out.println(a %b);
+            System.out.println("sum is " + (a +b));
+            System.out.println("sum is sss" + (a +b));
+        }
+    }
+}
