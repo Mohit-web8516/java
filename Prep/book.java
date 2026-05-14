@@ -223,18 +223,118 @@
 //     }
 // }
 //////////////////////////////////
-public class book {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 343;
-        {
-            System.out.println(a +b);
-            System.out.println(a -b);
-            System.out.println(a *b);
-            System.out.println(a /b);
-            System.out.println(a %b);
-            System.out.println("sum is " + (a +b));
-            System.out.println("sum is sss" + (a +b));
-        }
+// public class book {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = 343;
+//         {
+//             System.out.println(a +b);
+//             System.out.println(a -b);
+//             System.out.println(a *b);
+//             System.out.println(a /b);
+//             System.out.println(a %b);
+//             System.out.println("sum is " + (a +b));
+//             System.out.println("sum is sss" + (a +b));
+//         }
+//     }
+// }
+
+// class book {
+//     public static void main(String[] args) {
+
+//         int age = 20;
+//         boolean hasID = true;
+
+//         System.out.println(age >= 18 && hasID);
+//         System.out.println(age > 25 || hasID);
+//         System.out.println(!hasID);
+//     }
+// }
+
+
+// class Student { 
+// String name; 
+// int age; 
+// void display() { 
+// System.out.println("Name: " + name + ", Age: " + age); 
+// } 
+// }
+// public class book { 
+// public static void main(String[] args) { 
+// Student s1 = new Student(); 
+// Student s2 = new Student(); 
+// s1.name = "John"; 
+// s1.age = 20; 
+// s1.display(); 
+// s2.name = "John"; 
+// s2.age = 20; 
+// s2.display(); 
+// } 
+// }
+
+
+// class College {
+
+//     String collegeName = "ABC College";
+
+//     void showCollege() {
+
+//         System.out.println("College Name: " + collegeName);
+//     }
+// }
+
+// class Student extends College {
+
+//     int rollNo = 101;
+//     String name = "Mohit";
+
+//     void showStudent() {
+
+//         System.out.println("Roll Number: " + rollNo);
+//         System.out.println("Name: " + name);
+//     }
+
+//     public static void main(String[] args) {
+
+//         // Creating object of child class
+//         Student s = new Student();
+
+//         // Accessing parent class method
+//         s.showCollege();
+
+//         // Accessing child class method
+//         s.showStudent();
+//     }
+// }
+
+
+//////////////////////////////////////////
+// class exception
+// {
+//     public static void main(String args[])
+//     {
+//         int a = 10;
+//         int b = 0;
+
+//         try
+//         {
+//             int c = a / b;
+//             System.out.println(c);
+//         }
+
+//         catch(ArithmeticException e)
+//         {
+//             System.out.println("Cannot divide by zero");
+//         }
+
+       
+//     }
+// }
+public class Book {
+    public static void main (String [] args ){
+        int a = 20;
+        int b = 34;
+        System.out.println("the sum is : " + (a + b));
     }
+
 }
