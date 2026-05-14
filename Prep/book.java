@@ -152,3 +152,19 @@
 // }
 //////////////////////////////////
 /// 
+import java.util.*;
+
+public class book {
+    public static void main(String[] args) {
+        // Creating a HashMap
+        HashMap<Integer, String> map = new HashMap<>();
+
+        // Adding key-value pairs
+        map.put(1, "Mohit");
+        map.put(2, "Rahul");
+        map.put(3, "Priya");
+
+        // Display HashMap
+        System.out.println("HashMap: " + map);
+    }
+}
