@@ -152,19 +152,37 @@
 // }
 //////////////////////////////////
 /// 
-import java.util.*;
+// import java.util.*;
 
+// public class book {
+//     public static void main(String[] args) {
+//         // Creating a HashMap
+//         HashMap<Integer, String> map = new HashMap<>();
+
+//         // Adding key-value pairs
+//         map.put(1, "Mohit");
+//         map.put(2, "Rahul");
+//         map.put(3, "Priya");
+
+//         // Display HashMap
+//         System.out.println("HashMap: " + map);
+//     }
+// }
+//////////////////////////////////////
 public class book {
-    public static void main(String[] args) {
-        // Creating a HashMap
-        HashMap<Integer, String> map = new HashMap<>();
-
-        // Adding key-value pairs
-        map.put(1, "Mohit");
-        map.put(2, "Rahul");
-        map.put(3, "Priya");
-
-        // Display HashMap
-        System.out.println("HashMap: " + map);
-    }
+public static void main(String[] args) {
+// 1. byte: Smallest integer type, range: -128 to 127
+byte smallValue = 100;
+System.out.println("Byte value: " + smallValue);
+// 2. short: Larger than byte, range: -32,768 to 32,767
+short mediumValue = 30000;
+System.out.println("Short value: " + mediumValue);
+// 3. int: Default integer type, range: -2,147,483,648 to 2,147,483,647
+int normalValue = 1_000_000; // Underscores improve readability
+System.out.println("Int value: " + normalValue);
+// 4. long: For very large numbers, 
+// range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+long largeValue = 9_000_000_000L; // 'L' suffix is needed for long literals
+System.out.println("Long value: " + largeValue);
+}
 }
