@@ -169,20 +169,42 @@
 //     }
 // }
 //////////////////////////////////////
-public class book {
-public static void main(String[] args) {
-// 1. byte: Smallest integer type, range: -128 to 127
-byte smallValue = 100;
-System.out.println("Byte value: " + smallValue);
-// 2. short: Larger than byte, range: -32,768 to 32,767
-short mediumValue = 30000;
-System.out.println("Short value: " + mediumValue);
-// 3. int: Default integer type, range: -2,147,483,648 to 2,147,483,647
-int normalValue = 1_000_000; // Underscores improve readability
-System.out.println("Int value: " + normalValue);
-// 4. long: For very large numbers, 
-// range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-long largeValue = 9_000_000_000L; // 'L' suffix is needed for long literals
-System.out.println("Long value: " + largeValue);
-}
-}
+// public class book {
+// public static void main(String[] args) {
+// // 1. byte: Smallest integer type, range: -128 to 127
+// byte smallValue = 100;
+// System.out.println("Byte value: " + smallValue);
+// // 2. short: Larger than byte, range: -32,768 to 32,767
+// short mediumValue = 30000;
+// System.out.println("Short value: " + mediumValue);
+// // 3. int: Default integer type, range: -2,147,483,648 to 2,147,483,647
+// int normalValue = 1_000_000; // Underscores improve readability
+// System.out.println("Int value: " + normalValue);
+// // 4. long: For very large numbers, 
+// // range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+// long largeValue = 9_000_000_000L; // 'L' suffix is needed for long literals
+// System.out.println("Long value: " + largeValue);
+// }
+// }
+
+
+// public class book{
+//     public static void main(String[] args) {
+//         int age = 10;
+//         String name = "mohit";
+//         System.out.println("age is :" + age);
+//         System.out.println("name is :" + name);
+
+
+//     }
+// }
+
+
+// public class book {
+//     public static void main(String[] args) {
+//         int day = 8;
+//         switch (day){
+
+//         }
+//     }
+// }
